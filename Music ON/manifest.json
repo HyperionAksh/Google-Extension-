@@ -1,0 +1,14 @@
+{
+  "name": "Music ON",
+  "version": "0.01",
+  "description": "Music ON - Make browsing epic",
+	"browser_action": {
+		"default_title": "Music ON",
+		"default_popup": "popout.html"
+	},
+  "background":{
+    "page": "background.html",
+    "persistent": true
+  },
+  "manifest_version": 2
+}
